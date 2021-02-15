@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="franceCommerceProcess.FRA_BipartiteQuote">
+        <methods>
+          <include name="addAttachments"/>
+          <include name="verifyAddedContact"/>
+          <include name="enterOpportunityAndQuoteInfo"/>
+          <include name="loginToApplicationAnndNavigateCPQDashboardPage"/>
+          <include name="uplaodProductsFromCSV"/>
+          <include name="publishreport"/>
+          <include name="selectSoldToAccount"/>
+          <include name="saveAndPrice"/>
+          <include name="setup"/>
+          <include name="addNotes"/>
+          <include name="addProductsfromTextFile"/>
+          <include name="selectConatactFromRefreshContacts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- franceCommerceProcess.FRA_BipartiteQuote -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
